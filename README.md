@@ -13,6 +13,7 @@
 
 | Skill | Command | Description |
 |-------|---------|-------------|
+| 🫀 **Main Menu** | `/cardiology` | **Start here.** Interactive skill navigator, first-time user guide, and quick reference menu. Helps you find the right skill for your task. 总入口向导。 |
 | 🚦 **Heart Check** | `/heart-check` | Interactive cardiac symptom triage for patients & the public. Step-by-step chest pain, palpitations, dyspnea, and syncope assessment. Outputs risk level with clear action guidance. |
 | 🧮 **Cardiac Scores** | `/cardiac-scores` | Calculate 14 cardiology risk scores: CHA₂DS₂-VASc, HAS-BLED, GRACE, TIMI, HEART, Wells, Crusade, Killip, Framingham, SCORE2. Provide patient data → structured output. |
 | 💊 **Anticoagulation** | `/anticoagulation` | NOAC/DOAC dosing, warfarin INR, heparin/LMWH, perioperative bridging, DAPT duration, and bleeding reversal. Input patient data → regimen. |
