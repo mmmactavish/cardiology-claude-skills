@@ -1,14 +1,9 @@
 ---
 name: cardiac-templates
 description: >
-  Cardiology clinical documentation templates. Covers admission notes, discharge summaries,
-  procedure reports (PCI/pacemaker/TAVR), CCU daily notes, critical condition notification,
-  death summaries, consultation requests, and informed consent talking points.
-  Generates standardized templates ready for clinical use.
-
-  心内科病历文书模板生成器。涵盖入院记录、出院小结、手术记录(PCI/起搏器/TAVR)、
-  CCU病程记录、病危通知、死亡讨论、会诊记录、知情同意书要点。
-  生成标准化模板供临床填写使用。
+  Cardiology documentation templates: admission notes, discharge summaries,
+  procedure reports (PCI, pacemaker, TAVR), CCU progress notes, death summaries,
+  consultation requests, and informed consent forms.
 triggers:
   - documentation: template/clinical note/documentation/medical record/admission note/discharge summary/病历/模板/文书/入院记录/出院小结
   - procedure: procedure report/PCI report/pacemaker report/cath report/手术记录/PCI记录/起搏器记录/介入记录

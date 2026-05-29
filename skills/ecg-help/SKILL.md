@@ -1,14 +1,8 @@
 ---
 name: ecg-help
 description: >
-  ECG interpretation assistant. Covers STEMI localization, arrhythmia differential
-  (AF/AFL/SVT/VT/conduction blocks), electrolyte patterns (K/Ca), pacemaker ECGs,
-  QT interval analysis, and critical value recognition.
-  Describe ECG findings → get interpretation and differential diagnosis.
-
-  心电图解读辅助工具。涵盖STEMI定位、心律失常鉴别（房颤/房扑/室上速/室速/传导阻滞）、
-  电解质异常（高钾/低钾）、起搏器心电图、QT间期分析、危急值识别。
-  描述心电图特征即可获得判读意见和鉴别诊断。
+  ECG interpretation: STEMI localization, arrhythmia differential (WCT/SVT/AF/VT),
+  conduction blocks, electrolyte patterns, QT analysis, critical values. Describe ECG → read.
 triggers:
   - ECG: ECG/EKG/electrocardiogram/心电图/心电
   - STEMI: STEMI/ST elevation/MI localization/ST段抬高/心梗定位/导联

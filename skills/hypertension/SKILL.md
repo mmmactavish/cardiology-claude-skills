@@ -1,14 +1,10 @@
 ---
 name: hypertension
 description: >
-  Hypertension management reference. Covers diagnosis & staging (ESC/ACC/Chinese guidelines),
-  BP measurement standards (office/home/ABPM), secondary HTN workup (renal/renovascular/endocrine/OSAHS),
-  pharmacotherapy (monotherapy/combo/resistant HTN), special populations (pregnancy/elderly/DM/CKD/post-stroke),
-  and hypertensive emergencies/urgencies with IV drug guide.
-
-  高血压管理全流程助手。涵盖诊断分级、血压测量规范、继发性筛查路径、
-  药物选择(单药/联合/难治性)、特殊类型(妊娠/老年/糖尿病/CKD/卒中后)、
-  高血压急症/亚急症处理与静脉用药。
+  Hypertension: diagnosis & staging, BP measurement (office/home/ABPM),
+  secondary HTN workup (renal, renovascular, endocrine, OSAHS),
+  pharmacotherapy (monotherapy to resistant HTN), special populations,
+  hypertensive emergencies with IV drug guide.
 triggers:
   - hypertension: hypertension/HTN/high blood pressure/BP management/antihypertensive/高血压/血压高/降压
   - secondary: secondary hypertension/renal artery stenosis/primary aldosteronism/pheochromocytoma/Cushing/OSAHS/继发性高血压/肾动脉狭窄/原醛/嗜铬细胞瘤

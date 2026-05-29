@@ -1,13 +1,9 @@
 ---
 name: lipid-management
 description: >
-  Lipid management clinical decision support. Covers LDL-C targets by ASCVD risk,
-  statin intensity equivalents, non-statin agents (ezetimibe/PCSK9i/Inclisiran/bempedoic acid),
-  statin intolerance pathway, combination strategies, special populations (elderly/DM/CKD/ACS),
-  and lipid monitoring protocols.
-
-  血脂管理临床决策助手。涵盖LDL-C风险分层目标、他汀剂量等效表、
-  非他汀药物、他汀不耐受6步处理路径、联合策略、特殊人群调脂与监测方案。
+  Lipid management: LDL-C targets by ASCVD risk, statin intensity equivalents,
+  non-statin agents (ezetimibe, PCSK9i, inclisiran, bempedoic acid),
+  statin intolerance pathway, combination strategies, and monitoring protocols.
 triggers:
   - lipid: lipid/dyslipidemia/hyperlipidemia/hypercholesterolemia/hypertriglyceridemia/cholesterol/降脂/调脂/血脂/高脂血症/高胆固醇
   - statin: statin/atorvastatin/rosuvastatin/pitavastatin/pravastatin/simvastatin/statin intolerance/他汀/阿托伐他汀/瑞舒伐他汀/他汀不耐受

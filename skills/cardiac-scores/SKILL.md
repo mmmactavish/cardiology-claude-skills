@@ -1,13 +1,8 @@
 ---
 name: cardiac-scores
 description: >
-  Cardiology clinical scoring systems calculator — 14 risk scores in one place.
-  Covers CHA₂DS₂-VASc, HAS-BLED, GRACE, TIMI (STEMI/NSTEMI), HEART,
-  Wells (DVT/PE), Crusade, SYNTAX, EuroSCORE II, Framingham, ESC SCORE2/SCORE2-OP, Killip.
-  Bilingual EN/ZH. Provide patient data → get structured score output with clinical recommendations.
-
-  心血管评分系统一站式计算器 — 涵盖14种风险评分。
-  提供患者信息即可获得结构化评分结果与临床建议。
+  Calculate 14 cardiology risk scores: CHA₂DS₂-VASc, HAS-BLED, GRACE, TIMI (STEMI/NSTEMI),
+  HEART, Wells (DVT/PE), Crusade, Killip, Framingham, SCORE2. Provide patient data → structured output.
 triggers:
   - scores: score/scoring/risk score/calculate/stratify/assessment/评分/算一下/计算/打分/风险评估
   - CHA2DS2: CHA2DS2/CHADS2/房颤评分/卒中风险/抗凝评分/atrial fibrillation score/stroke risk

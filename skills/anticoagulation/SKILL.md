@@ -1,13 +1,8 @@
 ---
 name: anticoagulation
 description: >
-  Anticoagulation & antiplatelet management reference.
-  Covers NOAC/DOAC dosing, warfarin INR management, heparin/LMWH protocols,
-  perioperative bridging, DAPT duration, bleeding reversal strategies.
-  Provide patient data (age/weight/renal function/indication) → get specific regimen.
-
-  抗凝与抗血小板药物管理助手。涵盖NOAC/DOAC剂量、华法林INR管理、
-  肝素方案、围术期桥接、DAPT时长、出血逆转。提供患者情况即可获得具体用药方案。
+  Anticoagulation & antiplatelet reference: NOAC/DOAC dosing, warfarin INR, heparin/LMWH,
+  perioperative bridging, DAPT duration, and bleeding reversal. Input patient data → regimen.
 triggers:
   - anticoag: anticoag/anticoagulation/NOAC/DOAC/warfarin/heparin/bridging/DAPT/antiplatelet/抗凝/抗凝药/抗血小板
   - NOAC: NOAC/DOAC/dabigatran/rivaroxaban/apixaban/edoxaban/新型口服抗凝药/达比加群/利伐沙班/阿哌沙班/依度沙班

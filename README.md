@@ -11,17 +11,18 @@
 
 ## 📦 Skills Included · 包含技能
 
-| Skill · 技能 | Slash Command | Covers · 涵盖 |
-|-------------|---------------|----------------|
-| 🧮 **Cardiac Scores** · 评分系统 | `/cardiac-scores` | CHA₂DS₂-VASc, HAS-BLED, GRACE, TIMI, HEART, Wells, Crusade, Killip, Framingham, SCORE2 — 14 scoring systems |
-| 💊 **Anticoagulation** · 抗凝管理 | `/anticoagulation` | NOAC/DOAC dosing, warfarin INR, heparin, perioperative bridging, DAPT, bleeding reversal |
-| 📖 **Cardiac Drugs** · 药物速查 | `/cardiac-drugs` | Antihypertensives, antiarrhythmics, GDMT for HF, lipid-lowering, vasopressors, SGLT2i/GLP-1RA |
-| 📊 **ECG Interpretation** · 心电图 | `/ecg-help` | STEMI localization, wide QRS differential, conduction blocks, electrolyte patterns, critical values |
-| 🫀 **Echo Reference** · 心脏超声 | `/echo-reference` | Chamber dimensions, valve quantification, diastolic function, pulmonary pressure, cardiomyopathies |
-| 🩸 **Lipid Management** · 血脂管理 | `/lipid-management` | LDL-C targets, statin equivalents, non-statin agents, statin intolerance pathway |
-| 🩻 **Interventional Cards** · 介入 | `/cardiac-intervention` | PCI indications, stent selection, CIN prevention, TAVR, MitraClip, pacemaker criteria |
-| 💗 **Hypertension** · 高血压 | `/hypertension` | Diagnosis & staging, secondary HTN workup, combination therapy, resistant HTN, emergencies |
-| 📝 **Templates** · 病历文书 | `/cardiac-templates` | Admission notes, discharge summaries, PCI reports, CCU notes, consent forms |
+| Skill | Command | Description |
+|-------|---------|-------------|
+| 🚦 **Heart Check** | `/heart-check` | Interactive cardiac symptom triage for patients & the public. Step-by-step chest pain, palpitations, dyspnea, and syncope assessment. Outputs risk level with clear action guidance. |
+| 🧮 **Cardiac Scores** | `/cardiac-scores` | Calculate 14 cardiology risk scores: CHA₂DS₂-VASc, HAS-BLED, GRACE, TIMI, HEART, Wells, Crusade, Killip, Framingham, SCORE2. Provide patient data → structured output. |
+| 💊 **Anticoagulation** | `/anticoagulation` | NOAC/DOAC dosing, warfarin INR, heparin/LMWH, perioperative bridging, DAPT duration, and bleeding reversal. Input patient data → regimen. |
+| 📖 **Cardiac Drugs** | `/cardiac-drugs` | Cardiovascular drug reference: antihypertensives, antiarrhythmics, HF GDMT, statins, vasopressors/inotropes, SGLT2i, GLP-1RA. Query by drug or class → dosing & cautions. |
+| 📊 **ECG Interpretation** | `/ecg-help` | ECG interpretation: STEMI localization, arrhythmia differential (WCT/SVT/AF/VT), conduction blocks, electrolyte patterns, QT analysis, critical values. Describe ECG → read. |
+| 🫀 **Echo Reference** | `/echo-reference` | TTE normal values (ASE/EACVI), chamber dimensions, valve grading, diastolic function, right heart/PASP, pericardial disease, cardiomyopathies, prosthetic valves. Input values → report. |
+| 🩸 **Lipid Management** | `/lipid-management` | LDL-C targets by ASCVD risk, statin intensity equivalents, non-statin agents (ezetimibe, PCSK9i, inclisiran, bempedoic acid), statin intolerance pathway, and monitoring protocols. |
+| 🩻 **Interventional** | `/cardiac-intervention` | PCI indications, stent selection, DAPT duration, CIN prevention, PCI complications, structural interventions (TAVR, MitraClip, LAAO, PFO), and pacemaker/CRT/ICD indications. |
+| 💗 **Hypertension** | `/hypertension` | Diagnosis & staging, BP measurement (office/home/ABPM), secondary HTN workup, pharmacotherapy (monotherapy to resistant HTN), special populations, hypertensive emergencies with IV drug guide. |
+| 📝 **Templates** | `/cardiac-templates` | Admission notes, discharge summaries, procedure reports (PCI, pacemaker, TAVR), CCU progress notes, death summaries, consultation requests, and informed consent forms. |
 
 ---
 
@@ -32,7 +33,7 @@
 ### Option 1: Git Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cardiology-claude-skills.git
+git clone https://github.com/mmmactavish/cardiology-claude-skills.git
 cp -r cardiology-claude-skills/skills/* ~/.claude/skills/        # macOS / Linux
 # or
 Copy-Item -Recurse cardiology-claude-skills/skills/* $env:USERPROFILE\.claude\skills\   # Windows

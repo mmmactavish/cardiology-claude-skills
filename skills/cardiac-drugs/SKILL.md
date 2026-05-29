@@ -1,13 +1,8 @@
 ---
 name: cardiac-drugs
 description: >
-  Cardiovascular drug quick reference.
-  Covers antihypertensives (ACEI/ARB/ARNI/CCB/BB/diuretics), antiarrhythmics,
-  HF GDMT, lipid-lowering (statins/PCSK9i/ezetimibe), vasoactives (pressors/inotropes),
-  SGLT2i & GLP-1RA. Query by drug name or class → dosing, cautions, interactions.
-
-  心血管药物速查手册。涵盖降压药、抗心律失常药、心衰GDMT、调脂药、
-  血管活性药、SGLT2i/GLP-1RA。输入药名或类别即可获得用法用量与注意事项。
+  Cardiovascular drug reference: antihypertensives, antiarrhythmics, HF GDMT, statins,
+  vasopressors/inotropes, SGLT2i, GLP-1RA. Query by drug or class → dosing & cautions.
 triggers:
   - antihypertensive: antihypertensive/ACEI/ARB/CCB/amlodipine/nifedipine/valsartan/降压药/高血压药物/氨氯地平/硝苯地平/缬沙坦
   - HF: heart failure/GDMT/ARNI/sacubitril/valsartan/carvedilol/metoprolol/spironolactone/心衰药物/沙库巴曲缬沙坦

@@ -1,14 +1,9 @@
 ---
 name: cardiac-intervention
 description: >
-  Interventional cardiology reference. Covers coronary angiography & PCI indications,
-  stent selection (DES/BRS), DAPT strategies, contrast-induced nephropathy (CIN) prevention,
-  PCI complications, structural heart interventions (TAVR/MitraClip/LAAO/PFO closure),
-  pacemaker/CRT/ICD indications, and perioperative management.
-
-  心血管介入诊疗助手。涵盖冠脉造影与PCI适应证、支架选择、DAPT策略、
-  对比剂肾病预防、PCI并发症、结构性心脏病介入(TAVR/MitraClip/LAAO/PFO)、
-  起搏器/CRT/ICD适应证与围术期管理。
+  Interventional cardiology: PCI indications, stent selection, DAPT duration,
+  CIN prevention, PCI complications, structural interventions (TAVR, MitraClip, LAAO, PFO),
+  and pacemaker/CRT/ICD indications. Perioperative management included.
 triggers:
   - PCI: PCI/coronary angiography/angioplasty/stent/revascularization/介入/冠脉造影/冠脉支架/血运重建
   - stent: stent/DES/BMS/drug-eluting stent/bioresorbable scaffold/支架/药物洗脱支架

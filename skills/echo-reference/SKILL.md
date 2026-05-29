@@ -1,15 +1,9 @@
 ---
 name: echo-reference
 description: >
-  Echocardiography reference manual. Covers TTE normal values (ASE/EACVI),
-  chamber dimensions, valve quantification (stenosis/regurgitation grading),
-  LV systolic & diastolic function, right heart & PASP assessment,
-  pericardial effusion/tamponade, cardiomyopathies, prosthetic valve evaluation.
-  Input measurements or echo findings → get graded diagnosis and report phrasing.
-
-  心脏超声参考手册。涵盖TTE正常值(ASE/EACVI)、房室腔内径、瓣膜定量分级、
-  左室收缩/舒张功能、右心与肺动脉压、心包积液/填塞、心肌病、人工瓣评估。
-  输入测量值或描述超声表现即可获得分级诊断。
+  Echocardiography reference: TTE normal values (ASE/EACVI), chamber dimensions,
+  valve grading (stenosis/regurgitation), diastolic function, right heart/PASP,
+  pericardial disease, cardiomyopathies, prosthetic valves. Input values → report.
 triggers:
   - echo: echo/echocardiogram/TTE/TEE/transthoracic/transesophageal/心脏超声/超声心动图/心超
   - chambers: chamber size/LV dimension/LA size/RV size/wall thickness/左房/左室/右房/右室/室间隔/内径
